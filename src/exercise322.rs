@@ -1,16 +1,16 @@
 pub fn n_gcd(n: &Vec<i64>) -> i64 {
-    let mut n1 = n[0];
+    let mut _gcd = n[0];
 
     if let Some(nx) = n.get(1..) {
         for ni in nx {
-            n1 = gcd(n1, *ni);
+            _gcd = gcd(_gcd, *ni);
         }
     }
 
-    n1
+    _gcd
 }
 
-fn gcd(a: i64, b: i64) -> i64 {
+pub fn gcd(a: i64, b: i64) -> i64 {
     if a == 0 {
         return b;
     }

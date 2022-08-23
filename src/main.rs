@@ -3,6 +3,7 @@ mod exercise312;
 mod exercise321;
 mod exercise322;
 mod exercise323;
+mod exercise331;
 
 fn main() {
     exercise();
@@ -28,5 +29,8 @@ fn exercise() {
 
     print_divider("3.2.3");
     let n_323 = vec![56, 88, 96];
-    println!("{}", exercise323::n_lcm(&n_323))
+    println!("{}", exercise323::n_lcm(&n_323));
+
+    print_divider("3.3.1");
+    exercise331::print_answer();
 }

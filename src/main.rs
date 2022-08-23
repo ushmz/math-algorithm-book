@@ -4,6 +4,7 @@ mod exercise321;
 mod exercise322;
 mod exercise323;
 mod exercise331;
+mod exercise332;
 
 fn main() {
     exercise();
@@ -33,4 +34,7 @@ fn exercise() {
 
     print_divider("3.3.1");
     exercise331::print_answer();
+
+    print_divider("3.3.2");
+    exercise332::print_answer();
 }

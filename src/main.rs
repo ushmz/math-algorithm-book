@@ -8,6 +8,7 @@ mod exercise332;
 mod exercise333;
 mod exercise334;
 mod exercise335;
+mod exercise336;
 
 fn main() {
     exercise();

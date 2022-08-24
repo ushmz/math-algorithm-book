@@ -6,6 +6,7 @@ mod exercise323;
 mod exercise331;
 mod exercise332;
 mod exercise333;
+mod exercise334;
 
 fn main() {
     exercise();
